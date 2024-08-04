@@ -1,0 +1,8 @@
+services:
+  nginxconfig.io:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nginxconfig
+    ports:
+      - "8080:80"
