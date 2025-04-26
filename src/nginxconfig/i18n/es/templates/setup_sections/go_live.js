@@ -1,5 +1,5 @@
 /*
-Copyright 2021 DigitalOcean
+Copyright 2024 DigitalOcean
 
 This code is licensed under the MIT License.
 You may obtain a copy of the License at
@@ -24,10 +24,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-import common from '../../common';
+import common from '../../common.js';
 
 export default {
     letsGoLive: '¡Vamos a desplegar!',
-    reloadNginxToLoadInYourNewConfiguration: `Reiniciar ${common.nginx} para cargar tu nueva configuracion:`,
-    goLive: 'A desplegar!',
+    reloadNginxToLoadInYourNewConfiguration: `Reiniciar ${common.nginx} para cargar tu nueva configuración:`,
+    goLive: '¡A desplegar!',
 };
